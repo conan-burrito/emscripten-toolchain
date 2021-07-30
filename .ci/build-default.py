@@ -6,7 +6,7 @@ if __name__ == "__main__":
     def add_arch(arch: str):
         settings = {
             'os': 'Emscripten',
-            'arch': arch
+            'arch': arch,
             'compiler': 'clang',
             'compiler.version': '13.0',
             'compiler.libcxx': 'libc++',
