@@ -13,7 +13,7 @@ if __name__ == "__main__":
         }
         builder.add(settings=settings)
 
-    add_arch('arm.js')
+    add_arch('asm.js')
     add_arch('wasm')
 
     builder.run()
