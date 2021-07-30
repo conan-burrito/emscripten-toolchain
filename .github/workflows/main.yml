@@ -45,7 +45,7 @@ jobs:
 
       # Default settings don't include clang 13.0, used in Emscripten
       - name: Install conan settings
-        run: conan config install ./ci/settings.yml
+        run: conan config install ./.ci/settings.yml
 
       - name: Build native
         run:  |
