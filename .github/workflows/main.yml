@@ -42,6 +42,11 @@ jobs:
             python -m pip install --upgrade pip setuptools wheel
             pip install conan conan_package_tools
             conan remote disable conan-center
+
+      # Default settings don't include clang 13.0, used in Emscripten
+      - name: Install conan settings
+        run: conan config install ./ci/settings.yml
+
       - name: Build native
         run:  |
           python .ci/build-default.py
