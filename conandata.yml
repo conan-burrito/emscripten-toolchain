@@ -1,0 +1,4 @@
+sources:
+    2.0.26:
+      url: "https://github.com/emscripten-core/emsdk/archive/refs/tags/2.0.26.zip"
+      sha256: "d0b911c576863a7eab1420a5fb1af259da4bfa24ef446e65ec63855444c9b477"
